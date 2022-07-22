@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style={{height: '80px'}}>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style={{ height: '80px' }}>
         <div className="container-fluid">
           <Link className="navbar-brand fw-bold ms-20" to="/">SmartNews</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
